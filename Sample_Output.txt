@@ -1,0 +1,42 @@
+PHISHING URL DETECTION SYSTEM - SAMPLE OUTPUT
+
+----------------------------------------
+
+Input:
+http://fake-login-bank.com
+
+Output:
+❌ No HTTPS detected
+⚠️ Suspicious keyword found (login, bank)
+⚠️ URL contains unsafe patterns
+❌ Website NOT reachable (High Risk)
+
+Risk Score: 70
+Status: SUSPICIOUS 🟡
+
+----------------------------------------
+
+Input:
+https://www.google.com
+
+Output:
+✅ HTTPS detected
+✅ No suspicious keywords
+✅ Website reachable
+
+Risk Score: 10
+Status: SAFE 🟢
+
+----------------------------------------
+
+Input:
+http://free-money-now.xyz
+
+Output:
+❌ No HTTPS detected
+⚠️ Suspicious domain detected
+⚠️ High-risk pattern found
+❌ Website NOT reachable
+
+Risk Score: 90
+Status: DANGEROUS 🔴
